@@ -1,0 +1,556 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+
+
+<body style="background-color: #F4F6F6">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html">OrientInfo </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="index.html">Acceuil </a></li>
+                    <li role="presentation"><a href="admission.php">Admission </a></li>
+                    <li role="presentation"><a href="test_php.php">Test Orient</a></li>
+                    <li class="active" role="presentation"><a href="formation.php">Formations </a></li>
+                    <li role="presentation"><a href="orgaetude.php">Organisation des etudes</a></li>
+                    <li role="presentation"><a href="domainapp.php">Domaine D'application De L'informatique </a></li>
+                    <li role="presentation"><a href="statistique.html">Statistiques </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<br/>
+<article style="margin-left: 2%">
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center"><span style="color: #996600;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Semestre 5 : L3 Syst&egrave;me Informatique</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Syst&egrave;me d&rsquo;exploitation 2&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1 : </strong>Notion de processus, de parall&eacute;lisme, de coop&eacute;ration et de comp&eacute;tition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Notion de processus.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">&Eacute;tats d&rsquo;un processus.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Op&eacute;rations sur les processus.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Ressources d&rsquo;un processus.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Relations entre processus : Parall&eacute;lisme, coop&eacute;ration et comp&eacute;tition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Parall&eacute;lisme.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les instructions : parbegin/parend.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les instructions&nbsp;: fork/join.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">C</span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">oop&eacute;ration et comp&eacute;tition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Comp&eacute;tition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Coop&eacute;ration.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2 :</strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> L&rsquo;Exclusion mutuelle entre Processus.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Position du probl&egrave;me d&rsquo;exclusion mutuelle.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les quatre propri&eacute;t&eacute;s de Dijkstra.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Solution algorithmique au probl&egrave;me d&rsquo;exclusion mutuelle.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 3 : </strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">S&eacute;maphore.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Propri&eacute;t&eacute;s des s&eacute;maphores.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemples d&rsquo;utilisation de s&eacute;maphores.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 4 : </strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Communication indirecte par les tubes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemple.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exercice.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 5 : </strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Synchronisation des processus par les moniteurs.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition d&rsquo;un moniteur.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;claration d&rsquo;un moniteur.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Synchronisation.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 6 :</strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Synchronisation des processus par les r&eacute;gions critiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Types de r&eacute;gions critiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">R&eacute;gions critiques inconditionnelles.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">R&eacute;gions critiques conditionnelles. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemples.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Conclusion. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 7 :</strong></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Interblocage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Mod&egrave;le de syst&egrave;me.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Conditions d&rsquo;interblocage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Repr&eacute;sentation de l&rsquo;&eacute;tat d&rsquo;un syst&egrave;me.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Repr&eacute;sentation Matricielle.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Repr&eacute;sentation par Graphe. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de traitement de l&rsquo;interblocage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Approche pessimiste.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Approche optimiste.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de d&eacute;tection et gu&eacute;rison de l&rsquo;interblocage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Cas de ressources en plusieurs exemplaires.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Cas de ressources en un seul exemplaire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de pr&eacute;vention de l&rsquo;interblocage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de pr&eacute;vention statique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de pr&eacute;vention dynamique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Conclusion.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Paradigme de Programmation&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-top: 0.5cm; margin-bottom: 0cm; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 0.35cm; orphans: 2; widows: 2; text-decoration: none;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="color: #00cc33;"><span style="font-size: large;">Objectif</span></span><span style="color: #00cc33;"><span style="font-size: large;">s&nbsp;:</span></span> </span></span></span></p>
+<p style="margin-top: 0.11cm; margin-bottom: 0cm; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 0.35cm; orphans: 2; widows: 2; text-decoration: none;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Conna&icirc;tre les concepts de diff&eacute;rents paradigmes de programmation &agrave; travers l&rsquo;utilisation d&rsquo;un langage exemple de chaque paradigme.</span></span></span></p>
+<p style="margin-top: 0.11cm; margin-bottom: 0cm; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 0.35cm; orphans: 2; widows: 2; text-decoration: none;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Programmer en utilisant un langage de chaque paradigme: imp&eacute;ratif, fonctionnel, logique, orient&eacute; objet.</span></span></span></p>
+<p style="margin-top: 0.11cm; margin-bottom: 0cm; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 0.35cm; orphans: 2; widows: 2; text-decoration: none;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">choisir un langage de programmation appropri&eacute; pour un probl&egrave;me donn&eacute;<span style="font-weight: normal;">.</span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong> Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><a name="yui_3_17_2_1_1521378926764_20"></a><a name="yui_3_17_2_1_1521378926764_19"></a> <span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2&nbsp;:</strong></span></span></span> <span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Paradigme imp&eacute;ratif.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><a name="yui_3_17_2_1_1521378926764_191"></a><a name="yui_3_17_2_1_1521378926764_201"></a> <span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 3&nbsp;:</strong></span></span></span> <span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Paradigme </span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Orient&eacute; Objet</span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><a name="yui_3_17_2_1_1521378926764_192"></a><a name="yui_3_17_2_1_1521378926764_202"></a> <span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 4&nbsp;:</strong></span></span></span> <span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Paradigme </span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Fonctionnel</span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><a name="yui_3_17_2_1_1521378926764_1921"></a><a name="yui_3_17_2_1_1521378926764_2021"></a> <span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #000000;"><span style="font-size: medium;"><strong>Chapitre 5&nbsp;:</strong></span></span> <span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Paradigme </span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Logique</span></span></span><span style="color: #000000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">.</span></span></span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Intelligence Artificielle&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="text-decoration: none;"><strong>Chapitre 1 : </strong></span>Introduction a l'IA et Domaine d'applications.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">IA dans la science fiction.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">C&rsquo;est quoi l&rsquo;intelligence artificielle.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le cerveau humain.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Histoire de l&rsquo;IA.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Application de l&rsquo;IA.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les Agents Rationnels.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2 : </strong>R&eacute;solutions des probl&egrave;mes en IA&nbsp;: La recherche.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les agents qui planifient.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">L&rsquo;espace des &eacute;tats.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les graphes et les arbres des espaces des &eacute;tats.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La recherche non inform&eacute;e.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La recherche inform&eacute;e</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 3 :</strong> Connaissances, Raisonnement et planification.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La logique propositionnelle.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La logique des pr&eacute;dicats.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La logique modale.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les syst&egrave;mes de r&eacute;solutions par r&eacute;futation.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 4:</strong> Les syst&egrave;mes experts.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les composants d&rsquo;un SE.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">R&eacute;f&eacute;rences&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;">Artifical Intelligence, A Modern Approach,3rd Edition, Stuart J.Russel and Peter Norvig, Edition Pearson,2010.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;">BerkeleyX : CS188 Artificial Intelligence, Dan Klein,Pieter Abbeel, (2014). </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">G&eacute;nie Logiciel&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong> Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Qu&rsquo;est-ce que le g&eacute;nie logiciel ?</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finitions.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Qu&rsquo;est-ce que le logiciel?</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finitions.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Caract&eacute;ristiques.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Objectifs.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Difficult&eacute;s.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2&nbsp;:</strong> Mod&egrave;les de processus de d&eacute;veloppement logiciel .</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> <strong>Diff&eacute;rents mod&egrave;les de processus de d&eacute;veloppement logiciel:</strong></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le mod&egrave;le en cascade.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le mod&egrave;le en V.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le prototypage.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le mod&egrave;le incr&eacute;mental.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le mod&egrave;le en spirale.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le mod&egrave;le XP. </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 3&nbsp;:</strong> Processus de d&eacute;veloppement et documentation.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Processus de d&eacute;veloppement logiciel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principales &eacute;tapes de d&eacute;veloppement logiciel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principales activit&eacute;s de d&eacute;veloppement logiciel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Documentation.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Types.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 4&nbsp;:</strong> Qualit&eacute; logiciel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finitions.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Types.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Caract&eacute;ristiques.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Processus d&rsquo;&eacute;valuation de la qualit&eacute; de logiciel.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 5&nbsp;:</strong> Tests logiciels.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">V&eacute;rification et Validation de logiciel : Pourquoi?</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Qu&rsquo;est ce que la V&eacute;rification ?</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Qu&rsquo;est ce que la validation ?</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de v&eacute;rification et validation : Comparaison !</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Test de Logiciel :</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finitions.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">T&acirc;ches.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Processus.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Vocabulaire.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Types.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="color: #ff0000;"><span style="font-size: large;">IHM (Interaction Homme Machine)&nbsp;:</span></span> </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong> Introduction aux IHM.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Naissance des ordinateurs.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Naissance des IHM.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Types d&rsquo;interfaces.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2&nbsp;:</strong> Les &eacute;l&eacute;ments d&rsquo;IHM.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principe de base.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les types d&rsquo;interaction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les composants de l&rsquo;interface graphique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les taches de l&rsquo;interaction graphique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Aide et gestion des erreurs.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 3&nbsp;:</strong> Conception des IHM.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Recommandation ergonomiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thodes de conception IHM.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">C</span></span></span><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">ompilation&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>chapitre 1&nbsp;:</strong> Analyse lexicale.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Mise en &oelig;uvre d&rsquo;un analyseur lexicale d&rsquo;un langage.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Construction d&rsquo;un mod&egrave;le. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>chapitre 2&nbsp;:</strong> Analyse syntaxique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">M&eacute;thode descendante.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principe.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyseur LL(1).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyse ascendante.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">P</span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">rincipe.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyseur SLR(1).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyseur LR(1).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyseur LALR(1).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>chapitre 3&nbsp;:</strong> Analyse s&eacute;mantique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemple introductif.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Analyse descendante.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Cas ascendant.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemple sur la table des symboles, consistance des expressions.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>chapitre 4&nbsp;:</strong> G&eacute;n&eacute;ration du code interm&eacute;diaire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Code post fix&eacute; (interpr&eacute;teur).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Code 3 adresses.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Affectation binaire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Branchement inconditionnel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programmation Logique&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Caract&eacute;ristiques des langages de programmation logique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Syntaxe de la programmation logique en clause de Horn.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Termes et atomes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les clauses de Horn.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Le langage Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">&Eacute;l&eacute;ments du langage Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> Les clauses de Horn.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> D&eacute;monstration Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Unification et substitution en Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Pr&eacute;dicat d&rsquo;unification.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Unification et substitution de termes/atomes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">R&eacute;solution et d&eacute;rivation SLD. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Principe de d&eacute;rivation SLD.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Arbre SLD.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Le retour arri&egrave;re (Backtracking).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Compl&eacute;tude de la r&eacute;solution SLD.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">N&eacute;gation par l&rsquo;&eacute;chec.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Utilisation de la coupure (cut) en Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Listes en Prolog.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemple de listes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemple de programmes qui manipulent les listes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Quelques pr&eacute;dicats arithm&eacute;tiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Anglais&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="color: #000000;"><strong>cours 1 </strong></span><span style="color: #000000;"><strong>:</strong></span> Advantages and Disadvantages of Technology.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>C</strong><strong>ours</strong><strong> 2 :</strong> is Technology Related To Science.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="text-decoration: none;"><strong>Cours 3</strong></span><span style="text-decoration: none;"><strong> : </strong></span>Meaning of Technology and Its Use.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center"><span style="color: #996600;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Semestre 6 : L3 Syst&egrave;me Informatique</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="center">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Administration des Bases de donn&eacute;es&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="color: #000000;"><strong>Partie 1 :</strong></span><span style="color: #000000;"> Notions de BD et de SGBD.</span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Partie 2 :</strong> Le Mod&egrave;le Relationnel.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Partie 3 :</strong> Le langage SQL.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Rappel SQL (requ&ecirc;tes).</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Gestion d&rsquo;utilisateurs et droits d&rsquo;acc&egrave;s.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Maintien d&rsquo;int&eacute;grit&eacute; ( Triggers et Assertions).</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Protection par les vues. </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Partie 4 : </strong>Gestion des transactions </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Concurrence. </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Reprise apr&egrave;s pannes.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Partie 5 : </strong>S&eacute;curit&eacute; des BD.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Applications Mobiles&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong></span> <span style="font-size: medium;">Introduction aux applications mobiles. </span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Evolution de l&rsquo;appareil mobile.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Une opportunit&eacute; pour r&eacute;pondre &agrave; des nouveaux besoins.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Application mobile : D&eacute;finition.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Challenge dans la r&eacute;alisation des applications mobiles.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #000000;"><span style="font-size: medium;"><strong>Chapitre 2&nbsp;:</strong></span></span> </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; font-weight: normal; line-height: 100%;" align="left"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> <span style="color: #000000;"><span style="font-family: sans\ serif, sans-serif;"><u>P</u></span></span><span style="color: #000000;"><span style="font-family: sans\ serif, sans-serif;"><u>artie 1</u></span></span><span style="color: #000000;"><span style="font-family: sans\ serif, sans-serif;">&nbsp;:</span></span><span style="color: #000000;"><span style="font-family: sans\ serif, sans-serif;">T</span></span><span style="color: #000000;">ype</span><span style="color: #000000;">s</span><span style="color: #000000;"> d&rsquo;application</span><span style="color: #000000;">s</span><span style="color: #000000;"> mobile</span><span style="color: #000000;">s.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Cat&eacute;gories des applications mobiles.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Applications natives.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Applications Web mobile.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Applications hybrides.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"> <u>P</u><u><span style="font-weight: normal;">artie </span></u><u><span style="font-weight: normal;">2</span></u><span style="font-weight: normal;">&nbsp;: Contraintes de d&eacute;veloppement d&rsquo;une application mobile.</span> </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;">Mat&eacute;riel : services et contraintes.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;">User Experiance.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;">Mon&eacute;tisation d&rsquo;une application.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"> <span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><u>P</u></span></span><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><u><span style="font-weight: normal;">artie </span></u></span></span><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><u><span style="font-weight: normal;">3</span></u></span></span><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">&nbsp;: </span></span></span><span style="font-family: sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="font-weight: normal;">Architecture client mobile.</span></span></span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finitions.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Client l&eacute;g&egrave;re.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Client enrichi.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">H&eacute;bergement des pages Web.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Int&eacute;gration d&rsquo;une page Web.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Infrastructure des applications client.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="font-size: medium;"><strong>Chapitre </strong></span><span style="font-size: medium;"><strong>3</strong></span><span style="font-size: medium;"><strong>&nbsp;:</strong></span> <span style="font-size: medium;">Syst&egrave;mes d&rsquo;exploitation</span><span style="font-size: medium;"> mobiles.</span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition d&rsquo;un syst&egrave;me embarqu&eacute;.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Caract&eacute;ristiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Architecture.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;finition d&rsquo;un syst&egrave;me d&rsquo;exploitation.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Fonctionnalit&eacute;s.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Exemples.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Kernel.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-size: large;"><span style="font-family: Sans\ serif, sans-serif;">S</span><span style="font-family: Sans\ serif, sans-serif;">&eacute;curit&eacute; informatique&nbsp;: </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Objectifs:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">p</span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">r&eacute;senter aux &eacute;tudiants les probl&egrave;mes de s&eacute;curit&eacute; pos&eacute;s par les ressources informatiques et r&eacute;seaux et leurs d&eacute;crire les outils cryptologiques qui r&eacute;pondent &agrave; ces probl&egrave;mes.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Programme&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction &agrave; la s&eacute;curit&eacute; informatique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Objectifs et crit&egrave;res de la s&eacute;curit&eacute; informatique.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les menaces informatiques (les logiciels malveillants, la Cybercriminalit&eacute; &hellip;).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">c</span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">ryptologie et cryptographie pour palier les probl&egrave;mes de s&eacute;curit&eacute;.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"><span style="text-decoration: none;"><strong>Chapitre 2&nbsp;:</strong></span></span></span></span><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;"> S&ucirc;ret&eacute; d&rsquo;un chiffrement.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les cryptosyst&egrave;mes &agrave; cl&eacute; secr&egrave;te (sch&eacute;ma de Feistel, DES).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">La cryptanalyse lin&eacute;aire et diff&eacute;rentielle (AES, IDEA).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Les cryptosyst&egrave;mes &agrave; cl&eacute; publique (RSA&nbsp;: mise en &oelig;uvre, Factorisation, attaques).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Hashage et sch&eacute;mas de signatures (Markel Daungard, MD5, signature RSA, et ELGAMAL).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Certificats et gestion de cl&eacute;s (illustration avec PGP/ gnu PG).</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">R&eacute;daction scientifique&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #00cc33;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;">Objectifs&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">D&eacute;marche scientifique pour aborder les probl&eacute;matiques.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Recherche et collecte de la documentation.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Techniques de r&eacute;daction de travaux scientifiques.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Techniques de pr&eacute;sentations de travaux scientifiques. </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #00cc33;"><span style="font-family: sans-serif;">Programme&nbsp;:</span></span> </span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"><strong>Chapitre 1&nbsp;:</strong></span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"> Introduction.</span></span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">Comment aborder une probl&eacute;matique scientifique&nbsp;?</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">&Eacute;tude bibliographique. </span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"><strong>Chapitre 2&nbsp;:</strong></span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"> Techniques de r&eacute;daction de travaux scientifiques.</span></span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">R&eacute;daction d&rsquo;un rapport/m&eacute;moire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">Mise en forme d&rsquo;un rapport/m&eacute;moire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">Structure d&rsquo;un rapport/m&eacute;moire.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: large;"><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"><strong>Chapitre </strong></span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"><strong>3</strong></span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"><strong>&nbsp;:</strong></span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"> Techniques de </span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;">pr&eacute;sentation</span></span></span><span style="color: #000000;"><span style="font-family: sans-serif;"><span style="font-size: medium;"> de travaux scientifiques.</span></span></span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #000000;"><span style="font-family: Sans\ serif, sans-serif;"><span style="font-size: medium;">Introduction.</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Avant de pr&eacute;parer une pr&eacute;sentation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Mise en forme de la pr&eacute;sentation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Structure de la pr&eacute;sentation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Contenu de la pr&eacute;sentation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Animations.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Pr&eacute;parer sa pr&eacute;sentation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Exposition.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Questions.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">R&eacute;ponses aux questions.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">D&eacute;monstration.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Conseils pratiques.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="color: #ff0000;"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: large;">Cryptographie&nbsp;:</span></span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;"><span style="color: #00cc33;"><span style="font-size: large;">Programme&nbsp;:</span></span> </span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">D&eacute;finition et notation.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Quelques chiffrements historiques.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Chiffrement de c&eacute;sar.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Chiffrement par permutation de l&rsquo;alphabet.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Chiffrement du Vigen&egrave;re.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Rappels math&eacute;matiques.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Cryptographie moderne.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Chiffrement sym&eacute;trique.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Chiffrement asym&eacute;trique. </span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;">Aspect pratique.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Quelques protocoles.</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left"><span style="font-family: sans\ Serif, sans-serif;"><span style="font-size: medium;">Quelques applications (authentification, signature num&eacute;rique).</span></span></p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0cm; line-height: 100%;" align="left">&nbsp;</p>
+</article>
+<br/>
+</body>
+</html>

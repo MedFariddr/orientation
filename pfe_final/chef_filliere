@@ -1,0 +1,65 @@
+ <?php  
+ //login_success.php  
+ session_start();  
+ if(isset($_SESSION["username"]))  
+ {  
+      echo '<h3 align="center" style="color:red;font-family: 'Times New Roman', cursive;font-size:400%;margin-right: 25%"> Bienvenue - '.$_SESSION["username"].'</h3>';  
+      echo '<br /><br /><a href="logout.php">Logout</a>';  
+ }  
+ else  
+ {  
+      header('Location:index1.php');  
+ }  
+ ?>  
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chef Filliere</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body style="background-image:url('background_log.jpg');background-size: 100% 100%  background-repeat: no-repeat
+">
+ 
+  
+
+     
+
+    <div class="wrapper">
+    <form class="form-signin" method="POST" action="">       
+      
+      <input type="text" class="form-control" name="modname" id="modname" placeholder="Nom Module" required="" autofocus="" />
+      <select class="form-control" name="pst" id="pst">
+<option value="poste" selected disabled ></option>
+  <option ></option>
+  <option ></option>
+  
+</select>
+      <input type="text" class="form-control" name="coef" id="coef"placeholder="Coéfficient" required=""/>
+     <input type="text" class="form-control" name="cred" id="cred"placeholder="Crédit" required=""/>
+    
+      <label class="checkbox">
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" name="cnx"id="cnx">Ajouter</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="cnx"id="cnx">Editer</button> 
+      <button class="btn btn-lg btn-primary btn-block" type="submit" name="cnx"id="cnx">Supprimer</button> 
+ 
+     
+    </form>
+   
+  </div>
+  
+  
+
+</body>
+
+</html>

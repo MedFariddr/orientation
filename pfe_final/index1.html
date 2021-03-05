@@ -1,0 +1,101 @@
+
+<?php
+
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre','root','');
+
+if (isset($_POST['formconnexion'])) {
+  $mailconnect = htmlspecialchars($_POST['userconnect']);
+  $mdpconnect = sha1($_POST['mdpconnect']);
+  if(!empty($mailconnect) and !empty($mdpconnect)) {
+    $requser = $bdd->prepare("SELECT * FROM membre WHERE mail = ? and motdepasse = ?");
+    $requser->execute(array($mailconnect,$mdpconnect));
+    $userexist = $requser->rowCount();
+    if ($userexist==1) {
+      $accesautor=1;
+    }
+    else {
+      $erreur = "Mauvais nom d'utilisateur ou mot de passe !";
+    }
+  }
+  else {
+    $erreur = "Tous les champs doivent être complétés !";
+  }
+}
+
+?>
+<?php if (!isset($accesautor)) { ?>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>OrientInfo</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body style="background-image:url('background_log.jpg');background-size: 100% 100%  background-repeat: no-repeat
+">
+ <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index1.html">OrientInfo </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li  role="presentation"><a href="index.html">Acceuil </a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+
+     <h1   style="color:white;font-family: 'Times New Roman', cursive;font-size:400%;margin-right: 25%"> Pour Une Meilleur </h1>
+       <h1   style="color:white;font-family: 'Times New Roman', cursive;font-size:400%; margin-right: 25%">Orientation Pour Les Etudiants</h1>
+
+    <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading" align="center" style="color:black;font-family: 'Comic Sans MS', cursive;font-size:200%;background-color: white"> <img src="admin.png" alt="login" height="60" width="60" style="margin-left: 2%">Authentification</h2>
+      <input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur" required="" autofocus="" />
+      <select class="form-control">
+<option value="poste" selected disabled >Poste</option>
+  <option value="chef_spec">Chef Spécialité</option>
+  <option value="chef_fil">Chef Filliére</option>
+  
+</select>
+      <input type="password" class="form-control" name="password" placeholder="Mot De Passe" required=""/>      
+      <label class="checkbox">
+        Vous n'etes pas un administrateur ?Allez Voir L'acceuil  au haut ! 
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>   
+    </form>
+    <?php
+    if (isset($erreur)) {
+      echo '<font color="red">'.$erreur."</font>";
+    }
+    ?>
+  </div>
+  
+  
+
+</body>
+
+</html>
+<?php } else { ?>
+
+<html>
+<head>
+</head>
+<body>
+<h2>Felicitation !</h2>
+</body>
+</html>
+<?php } ?>
